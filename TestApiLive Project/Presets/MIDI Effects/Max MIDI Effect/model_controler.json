@@ -1,0 +1,140 @@
+{
+  "deck0_loopingtoto": {
+    "gui_path": "gui::deck0::loop_tab",
+    "live_path": ["live_set tracks 0 clip_slots 0 clip"],
+    "type": "looper",
+    "value": 5
+  },
+  "deck0_level": {
+    "gui_path": "gui::deck0::level",
+    "live_path": ["live_set tracks 0 devices 0 parameters 1"],
+    "type": "generic_parameter",
+    "value": 63
+  },
+  "deck0_eq_hi": {
+    "gui_path": "gui::deck0::eq_hi",
+    "live_path": ["live_set tracks 0 devices 0 parameters 2"],
+    "type": "generic_parameter",
+    "value": 127
+  },
+  "deck0_eq_mid": {
+    "gui_path": "gui::deck0::eq_mid",
+    "live_path": ["live_set tracks 0 devices 0 parameters 3"],
+    "type": "generic_parameter",
+    "value": 127
+  },
+  "deck0_eq_low": {
+    "gui_path": "gui::deck0::eq_low",
+    "live_path": ["live_set tracks 0 devices 0 parameters 4"],
+    "type": "generic_parameter",
+    "value": 127
+  },
+  "deck0_fx_toggle": {
+    "gui_path": "gui::deck0::fx_toggle",
+    "live_path": ["live_set tracks 0 devices 1 chains 0 devices 1 parameters 0"],
+    "type": "generic_parameter",
+    "value": 0
+  },
+  "deck0_filter_toggle": {
+    "gui_path": "gui::deck0::filter_toggle",
+    "live_path": ["live_set tracks 0 devices 2 chains 0 devices 0 parameters 0"],
+    "type": "generic_parameter",
+    "value": 0
+  },
+  "deck1_looping": {
+    "gui_path": "gui::deck1::loop_tab",
+    "live_path": ["live_set tracks 1 clip_slots 0 clip"],
+    "type": "looper",
+    "value": 5
+  },
+  "deck1_level": {
+    "gui_path": "gui::deck1::level",
+    "live_path": ["live_set tracks 1 devices 0 parameters 1"],
+    "type": "generic_parameter",
+    "value": 63
+  },
+  "deck1_eq_hi": {
+    "gui_path": "gui::deck1::eq_hi",
+    "live_path": ["live_set tracks 1 devices 0 parameters 2"],
+    "type": "generic_parameter",
+    "value": 127
+  },
+  "deck1_eq_mid": {
+    "gui_path": "gui::deck1::eq_mid",
+    "live_path": ["live_set tracks 1 devices 0 parameters 3"],
+    "type": "generic_parameter",
+    "value": 127
+  },
+  "deck1_eq_low": {
+    "gui_path": "gui::deck1::eq_low",
+    "live_path": ["live_set tracks 1 devices 0 parameters 4"],
+    "type": "generic_parameter",
+    "value": 127
+  },
+  "deck1_fx_toggle": {
+    "gui_path": "gui::deck1::fx_toggle",
+    "live_path": ["live_set tracks 1 devices 1 chains 0 devices 1 parameters 0"],
+    "type": "generic_parameter",
+    "value": 0
+  },
+  "deck1_filter_toggle": {
+    "gui_path": "gui::deck1::filter_toggle",
+    "live_path": ["live_set tracks 1 devices 2 chains 0 devices 0 parameters 0"],
+    "type": "generic_parameter",
+    "value": 0
+  },
+  "fx_low_toggle": {
+    "gui_path": "gui::fx_low_toggle",
+    "live_path": ["live_set tracks 0 devices 1 chains 0 devices 0 parameters 6","live_set tracks 1 devices 1 chains 0 devices 0 parameters 6"],
+    "type": "generic_parameter",
+    "value": 1
+  },
+  "fx_mid_toggle": {
+    "gui_path": "gui::fx_mid_toggle",
+    "live_path": ["live_set tracks 0 devices 1 chains 0 devices 0 parameters 7","live_set tracks 1 devices 1 chains 0 devices 0 parameters 7"],
+    "type": "generic_parameter",
+    "value": 1
+  },
+  "fx_hi_toggle": {
+    "gui_path": "gui::fx_hi_toggle",
+    "live_path": ["live_set tracks 0 devices 1 chains 0 devices 0 parameters 8","live_set tracks 1 devices 1 chains 0 devices 0 parameters 8"],
+    "type": "generic_parameter",
+    "value": 1
+  },
+  "fx_type_selector": {
+    "gui_path": "gui::fx_type",
+    "live_path": ["live_set tracks 0 devices 1 chains 0 devices 1 parameters 1","live_set tracks 1 devices 1 chains 0 devices 1 parameters 1"],
+    "type": "generic_parameter",
+    "value": 0
+  },
+  "fx_amp": {
+    "gui_path": "gui::fx_amp",
+    "live_path": ["live_set tracks 0 devices 1 chains 0 devices 1 parameters 2","live_set tracks 1 devices 1 chains 0 devices 1 parameters 2"],
+    "type": "generic_parameter",
+    "value": 0
+  },
+  "fx_toggle": {
+    "gui_path": "gui::fx_toggle",
+    "live_path": ["live_set tracks 0 devices 1 parameters 0","live_set tracks 1 devices 1 parameters 0"],
+    "type": "generic_parameter",
+    "value": 0
+  },
+  "filter_freq": {
+    "gui_path": "gui::filter_freq",
+    "live_path": ["live_set tracks 0 devices 2 parameters 3","live_set tracks 1 devices 2 parameters 3"],
+    "type": "generic_parameter",
+    "value": 127
+  },
+  "filter_res": {
+    "gui_path": "gui::filter_res",
+    "live_path": ["live_set tracks 0 devices 2 parameters 4","live_set tracks 1 devices 2 parameters 4"],
+    "type": "generic_parameter",
+    "value": 18
+  },
+  "filter_toggle": {
+    "gui_path": "gui::filter_toggle",
+    "live_path": ["live_set tracks 0 devices 2 parameters 0","live_set tracks 1 devices 2 parameters 0"],
+    "type": "generic_parameter",
+    "value": 0
+  }
+}
